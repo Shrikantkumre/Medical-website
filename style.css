@@ -1,0 +1,363 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+
+
+.maincontainer2 ul {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.textcontainer {
+    display: flex;
+    background-position: left;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+.textcontainer img {
+    flex-wrap: wrap;
+    margin-left: 750px;
+    margin-top: 100px;
+    height: 70vh;
+
+}
+
+.text1 {
+    position: absolute;
+    top: 30%;
+    flex-wrap: wrap;
+    left: 90px;
+    width: 500px;
+
+}
+
+.text1 h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h5 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contac {
+    background-color: aqua;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10%;
+
+
+
+}
+
+.companywork {
+
+    margin: 200px;
+}
+
+.companywork h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.comapanyservices img {
+
+    margin-left: 30px;
+    width: 146px;
+}
+
+.seework {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn2 {
+
+    margin-top: 100px;
+    background-color: aqua;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10%;
+
+
+
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.digitaloffering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    gap: 90px;
+
+
+
+
+}
+
+.digital {
+    border-left: 1px solid black;
+    padding-left: 20px;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 100px;
+
+}
+
+.mainourwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.ourwork {
+    width: 400px;
+}
+
+.ourwork h4 {
+    margin-top: 50px;
+}
+
+.maintechnologies {
+    margin-top: 100px;
+}
+
+.mainmobilecontainer {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+
+
+.mobilecontainer1 img {
+    height: 600px;
+    width: 330px;
+
+
+}
+
+.mobilecontainer2 {
+    justify-content: center;
+
+    text-align: start;
+    height: 200px;
+    width: 500px;
+
+}
+
+.mobilecontainer2 h1 {
+    text-align: start;
+}
+
+.mobilecontainer2 h4 {
+    margin-top: 100px;
+}
+
+.mobilebtn {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5%;
+}
+
+.healthcaredevelopment {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.healthcontainer1 {
+    margin-top: 150px;
+    height: 200px;
+    width: 500px;
+
+}
+
+.healthcontainer1 h5 {
+    align-items: start;
+    text-align: start;
+}
+
+.healthcontainer2 img {
+    height: 400px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.healthbtn {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5%;
+
+}
+
+.maindoctor {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    margin-left: 100px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.doctorcontainer1 img {
+    height: 300px;
+    width: 600px;
+
+
+}
+
+.doctorcontainer2 {
+    height: 100px;
+    width: 500px;
+}
+
+
+
+.doctorbtn {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5%;
+
+
+}
+
+.doctorcontainer2 h1 {
+    align-items: start;
+    text-align: start;
+}
+
+
+.doctorcontainer2 h5 {
+    align-items: start;
+    text-align: start;
+}
+
+.securitycontainer {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+.securitycontainer1 {
+    margin-top: 50px;
+    width: 500px
+}
+
+.securitycontainer2 img {
+    height: 500px;
+    width: 500px;
+}
+
+
+.security1 h3 {
+
+    align-items: start;
+    text-align: start;
+}
+
+
+
+.security1 h5 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    align-items: start;
+    text-align: start;
+}
+
+
+.securitycbtn {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5%;
+
+
+}
+.mainlaunchservices
+{
+    margin-top: 100px;
+    background-color: darkslategray;
+}
+
+.launchservices {
+    display: flex;
+    gap: 150px;
+    height: 400px;
+   
+    justify-content: center;
+}
+
+
+.launchservicescontainer1 img {
+    margin-top: 150px;
+    height: 50px;
+    width: 50px;
+}
+
+.launchservicescontainer1 {
+
+    height: 200px;
+    width: 350px;
+}
