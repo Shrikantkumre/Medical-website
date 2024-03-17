@@ -17,6 +17,7 @@ body {
 .main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 
 
@@ -31,9 +32,14 @@ body {
     padding: 10px;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
 
+}
+
+.maincontainer2 ul li a {
+    list-style-type: none;
 }
 
 .textcontainer {
@@ -85,7 +91,7 @@ h5 {
 }
 
 .companywork {
-
+    flex-wrap: wrap;
     margin: 200px;
 }
 
@@ -130,6 +136,7 @@ h1 {
 .digitaloffering {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 140px;
     gap: 90px;
@@ -152,6 +159,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
 }
@@ -166,11 +174,13 @@ h1 {
 
 .maintechnologies {
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .mainmobilecontainer {
     display: flex;
     margin-top: 100px;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 80px;
 
@@ -213,6 +223,7 @@ h1 {
 .healthcaredevelopment {
     display: flex;
     margin-top: 100px;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: start;
     gap: 50px;
@@ -250,6 +261,7 @@ h1 {
     display: flex;
     align-items: start;
     text-align: start;
+    flex-wrap: wrap;
     margin-left: 100px;
     margin-top: 100px;
     gap: 100px;
@@ -292,6 +304,7 @@ h1 {
 
 .securitycontainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: start;
     text-align: start;
     margin-top: 100px;
@@ -335,17 +348,19 @@ h1 {
 
 
 }
-.mainlaunchservices
-{
+
+.mainlaunchservices {
     margin-top: 100px;
+    flex-wrap: wrap;
     background-color: darkslategray;
+    margin-bottom: 50px;
 }
 
 .launchservices {
     display: flex;
     gap: 150px;
     height: 400px;
-   
+
     justify-content: center;
 }
 
@@ -359,5 +374,146 @@ h1 {
 .launchservicescontainer1 {
 
     height: 200px;
+    width: 300px;
+}
+
+.mainourblog {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ourblog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.blogcontainer1 img {
     width: 350px;
+
+
+}
+
+
+.blogcontainer2 {
+    width: 500px;
+
+
+}
+
+.blogcontainer2 h6 {
+
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+.blogcontainer2 h2 {
+
+    text-align: start;
+}
+
+.blogcontainer2 h5 {
+    text-align: start;
+    margin-top: 10px;
+}
+
+.blogcontainer2 a {
+    display: flex;
+    text-align: start;
+
+
+}
+
+.blogcontainerbtn {
+    margin-top: 50px;
+    border: none;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5%;
+    margin-bottom: 100px;
+
+}
+
+.mainsubscribe {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+
+}
+
+.subscribe {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.subcontainer1 img {
+    height: 50px;
+    width: 50px;
+}
+
+.subcontainer3 {
+    margin-top: 20px;
+}
+
+.subcontainer3 input {
+
+    margin-top: 0px;
+    height: 30px;
+    width: 500px;
+}
+
+.subcontainerbtn {
+    border: none;
+    padding: 10px;
+    background-color: rgb(11, 252, 252);
+    border-radius: 5%;
+
+}
+
+.maininfoservices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.maininfoservices {
+    gap: 80px;
+}
+
+.maininfoservices1 {
+    width: 200px;
+    text-align: start;
+    height: 200px;
+    text-decoration: none;
+    list-style-type: none;
+    width: 250px;
+
+}
+.maininfoservices1 a
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+.maininfoservices1 h5 {
+    margin-bottom: 20px;
+    text-align: start;
+
 }
